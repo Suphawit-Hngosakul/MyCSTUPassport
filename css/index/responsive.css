@@ -1,3 +1,27 @@
+@media screen and (max-width:1576px){
+    main{
+        .content:hover #hrinformation{
+            width: 50%;
+        }
+        #hrinformation{
+            width: 30%;
+        }
+        .Presentation iframe{
+            width: 420px;
+            height: 236px;
+        }
+    }
+}
+@media screen and (max-width:1250px){
+    main{
+        .content{
+            width: 70%;
+        }
+        .content:hover{
+            width: 85%;
+        }
+    }
+}
 @media screen and (max-width:768px){
     header{
         padding: 1.3rem 5%;
@@ -38,6 +62,95 @@
             .list{
                 flex-direction: column;
             }
+        }
+    }
+    /*------------------------------*/
+    main{
+        .profileimg{
+            width: 200px;
+            height: 200px;
+        }
+        .content{
+            width: 70%;
+        }
+        /*headinfor*/
+        #headinformation{
+            margin-top: 2rem;
+        }
+        .content:hover{
+            width: 90%;
+        }
+    }
+}
+@media screen and (max-width:690px){
+    main{
+        #headinformation{
+            font-size: 2rem;
+        }
+        .information{
+            font-weight: 350;
+            font-size: 1rem;
+        }
+        .Presentation iframe{
+            width: 280px;
+            height: 157.5px;
+        }
+    }
+}
+@media screen and (max-width:530px){
+    main{
+        #headinformation{
+            font-size: 1.5rem;
+        }
+        .information{
+            font-weight: 350;
+            font-size: 1rem;
+        }
+        #name{
+            padding-right: 1rem;
+        }
+        #nick{
+            padding-left: 1.5rem;
+        }
+        .iframe{
+            width: 200px;
+            height: 113px;
+        }
+    }
+}
+@media screen and (max-width:425px){
+    main{
+        .content{
+            width: 90%;
+        }
+        #name{
+            padding-right: 0.3rem;
+        }
+        #nick{
+            padding-left: 1rem;
+        }
+        .content:hover #hrinformation{
+            width: 100%;
+        }
+        #hrinformation{
+            width: 30%;
+        }
+    }
+}
+@media screen and (max-width:310px){
+    main{
+        .content{
+            border-radius: 30px;
+        }
+        .information{
+            font-size: 0.8rem;
+        }
+        #name{
+            
+            padding-right: 0.15rem;
+        }
+        #nick{
+            padding-left: 0.5rem;
         }
     }
 }

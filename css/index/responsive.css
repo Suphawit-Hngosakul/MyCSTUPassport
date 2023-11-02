@@ -81,6 +81,36 @@
             width: 90%;
         }
     }
+    /*------------------------------*/
+    footer{
+        flex-direction: column;
+        /*contact*/
+        #headcontact{
+            border-right: none;
+            padding-right: 0rem;
+            padding-bottom: 1rem;
+        }
+        #linecontact{
+            display: block;
+            width: 90%;
+            margin: 0 auto;
+            margin-bottom: 0.8rem;
+        }
+        .contact{
+            margin: 0 2%;
+        }
+        /*contact link*/
+        .link1{
+            border-right: none;
+            font-size: 0.8rem;
+        }
+        .link1 a{
+            font-size: 0.8rem;
+        }
+        .link2 a{
+            font-size: 0.8rem;
+        }
+    }
 }
 @media screen and (max-width:690px){
     main{
@@ -117,6 +147,35 @@
             height: 113px;
         }
     }
+    /*------------------------------*/
+    footer{
+        flex-direction: column;
+        /*Contact*/
+        .headcontact{
+            margin-bottom: 0.5rem;
+            border-right: 0;
+            padding-right: 0;
+        }
+        .contact{
+            font-size: 0.8rem;
+        }
+        /*Contact link*/
+        .link1{
+            border-right: 0;
+            padding-right: 0;
+        }
+        .link1 ul{
+            text-align: left;
+            flex-direction: column;
+        }
+        .link2{
+            margin-top: 0.5rem;
+        }
+        #con{
+            display: block;
+            margin-bottom: 0.4rem;
+        }
+    }
 }
 @media screen and (max-width:425px){
     main{
@@ -130,10 +189,30 @@
             padding-left: 1rem;
         }
         .content:hover #hrinformation{
-            width: 100%;
+            width: 60%;
         }
         #hrinformation{
             width: 30%;
+        }
+    }
+    /*------------------------------*/
+    footer{
+        #linecontact{
+            width: 80%;
+            margin-bottom: 0.6rem;
+        }
+        .contact{
+            flex-direction: column;
+        }
+        /*Contact link*/
+        .link1{
+            margin: 0 auto;
+        }
+        .link2{
+            margin: 1rem auto 0.2rem;
+        }
+        .link2 ul a{
+            padding: 0 1rem;
         }
     }
 }
@@ -151,6 +230,12 @@
         }
         #nick{
             padding-left: 0.5rem;
+        }
+    }
+    /*------------------------------*/
+    footer{
+        .link2 ul a{
+            padding: 0 0.1rem;
         }
     }
 }
